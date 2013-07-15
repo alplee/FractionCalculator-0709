@@ -9,5 +9,24 @@
 #import <UIKit/UIKit.h>
 
 @interface calculateViewController : UIViewController
+@property (strong,nonatomic) IBOutlet UILabel *display;
+
+-(void)processDigit : (int) digit;
+-(void)processOp :(char) theOp;
+-(void)storeFracPart;
+
+
+//number keys
+-(IBAction)clickDigit :(UIButton *)sender;
+-(IBAction)clickPlus;
+-(IBAction)clickSub;
+-(IBAction)clickMult;
+-(IBAction)clickDev;
+
+
+//act keys
+-(IBAction)clickOver;
+-(IBAction)clickEqual;
+-(IBAction)clickClear;
 
 @end

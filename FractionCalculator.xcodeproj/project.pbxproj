@@ -18,6 +18,8 @@
 		90DDDEE6178A4715004A5FB4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90DDDEE5178A4715004A5FB4 /* Default-568h@2x.png */; };
 		90DDDEE9178A4715004A5FB4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90DDDEE7178A4715004A5FB4 /* MainStoryboard.storyboard */; };
 		90DDDEEC178A4715004A5FB4 /* calculateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DDDEEB178A4715004A5FB4 /* calculateViewController.m */; };
+		90DDDEF4178A4A32004A5FB4 /* Calculator.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DDDEF3178A4A32004A5FB4 /* Calculator.m */; };
+		90DDDEF7178B9B85004A5FB4 /* Fraction.m in Sources */ = {isa = PBXBuildFile; fileRef = 90DDDEF6178B9B85004A5FB4 /* Fraction.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,10 @@
 		90DDDEE8178A4715004A5FB4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		90DDDEEA178A4715004A5FB4 /* calculateViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = calculateViewController.h; sourceTree = "<group>"; };
 		90DDDEEB178A4715004A5FB4 /* calculateViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = calculateViewController.m; sourceTree = "<group>"; };
+		90DDDEF2178A4A32004A5FB4 /* Calculator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Calculator.h; sourceTree = "<group>"; };
+		90DDDEF3178A4A32004A5FB4 /* Calculator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Calculator.m; sourceTree = "<group>"; };
+		90DDDEF5178B9B85004A5FB4 /* Fraction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fraction.h; sourceTree = "<group>"; };
+		90DDDEF6178B9B85004A5FB4 /* Fraction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fraction.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +94,10 @@
 				90DDDEE7178A4715004A5FB4 /* MainStoryboard.storyboard */,
 				90DDDEEA178A4715004A5FB4 /* calculateViewController.h */,
 				90DDDEEB178A4715004A5FB4 /* calculateViewController.m */,
+				90DDDEF5178B9B85004A5FB4 /* Fraction.h */,
+				90DDDEF6178B9B85004A5FB4 /* Fraction.m */,
+				90DDDEF2178A4A32004A5FB4 /* Calculator.h */,
+				90DDDEF3178A4A32004A5FB4 /* Calculator.m */,
 				90DDDED6178A4715004A5FB4 /* Supporting Files */,
 			);
 			path = FractionCalculator;
@@ -177,6 +187,8 @@
 				90DDDEDC178A4715004A5FB4 /* main.m in Sources */,
 				90DDDEE0178A4715004A5FB4 /* calculateAppDelegate.m in Sources */,
 				90DDDEEC178A4715004A5FB4 /* calculateViewController.m in Sources */,
+				90DDDEF4178A4A32004A5FB4 /* Calculator.m in Sources */,
+				90DDDEF7178B9B85004A5FB4 /* Fraction.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,6 +276,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FractionCalculator/FractionCalculator-Prefix.pch";
 				INFOPLIST_FILE = "FractionCalculator/FractionCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -275,6 +288,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FractionCalculator/FractionCalculator-Prefix.pch";
 				INFOPLIST_FILE = "FractionCalculator/FractionCalculator-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -299,6 +313,7 @@
 				90DDDEF1178A4715004A5FB4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
